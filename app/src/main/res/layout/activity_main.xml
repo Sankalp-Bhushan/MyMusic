@@ -66,10 +66,11 @@
 
         <SeekBar
             android:id="@+id/seekBar"
-            android:layout_width="148dp"
-            android:layout_height="48dp"
+            android:layout_width="209dp"
+            android:layout_height="47dp"
             android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp" />
     </RelativeLayout>
 
     <LinearLayout
@@ -109,7 +110,7 @@
             android:layout_toEndOf="@+id/button2"
             android:layout_toRightOf="@+id/button2"
             android:layout_weight="1"
-            android:text="@string/back" />
+            android:text="@string/next" />
 
         <Button
             android:id="@+id/button4"
